@@ -1,0 +1,26 @@
+.column {
+  float: left;
+  align-items: center;
+  width: 520px;
+  height: 460px;
+}
+
+img {
+  width: 400px;
+  height: 275px;
+  margin-bottom: -10px;
+  border: solid black;
+  border-radius: 50%
+}
+
+.column p {
+  width: 460px;
+}
+
+#title{
+  text-align: center;
+}
+
+.column h3 {
+  text-align: center;
+}
