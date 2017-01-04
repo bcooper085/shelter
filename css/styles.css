@@ -1,48 +1,146 @@
 @import url('https://fonts.googleapis.com/css?family=Acme');
 @import url('https://static.pexels.com/photos/9056/pexels-photo.jpg=grassbg');
 
-.column {
-  float: left;
-  width: 520px;
-  height: 460px;
-  border-style: groove;
-  margin: 10px;
-  padding: 10px;
-  background-color: rgba(255, 255, 255, 0.2);
+@media screen and (min-width: 1000px) {
+  .column {
+    float: left;
+    width: 520px;
+    height: 460px;
+    border-style: groove;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+  }
+
+  .column p {
+    width: 460px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #title{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    font-size: 3em;
+  }
+
+  .column h3 {
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .column img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 275px;
+    margin-bottom: -10px;
+    border: solid black;
+    border-radius: 50%
+  }
+
+  body {
+  background: url("../img/Grass.jpg") no-repeat bottom fixed;
+  background-size: 100%;
+  }
 }
 
-.column p {
-  width: 460px;
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
+@media screen and (min-width: 480px) and (max-width: 1000px){
+  .column {
+    float: left;
+    width: 345px;
+    height: 400px;
+    border-style: groove;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+  }
+
+  .column p {
+    width: 300px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #title{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .column h3 {
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .column img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 175px;
+    margin-bottom: -10px;
+    border: solid black;
+    border-radius: 25px;
+  }
+
+  body {
+  background-color: gray;
+  background-size: 100%;
+  }
 }
 
-#title{
-  font-family: 'Acme', sans-serif;
-  text-align: center;
-  font-size: 3em;
-}
+@media screen and (max-width: 480px) {
+  .column {
+    float: left;
+    width: 520px;
+    height: 460px;
+    border-style: groove;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
 
-.column h3 {
-  font-family: 'Acme', sans-serif;
-  text-align: center;
-  font-size: 2em;
-}
+  .column p {
+    width: 460px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.column img {
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 400px;
-  height: 275px;
-  margin-bottom: -10px;
-  border: solid black;
+  #title{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    font-size: 3em;
+  }
 
-  border-radius: 50%
-}
+  .column h3 {
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    font-size: 2em;
+  }
 
-body {
-background: url("../img/Grass.jpg") no-repeat bottom fixed;
-background-size: 100%;
+  .column img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 275px;
+    margin-bottom: -10px;
+    border: solid black;
+
+    border-radius: 50%
+  }
+
+  body {
+  background-color: blue;
+  background-size: 100%;
+  }
 }
