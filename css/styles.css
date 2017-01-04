@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://static.pexels.com/photos/9056/pexels-photo.jpg=grassbg');
+
 .column {
   float: left;
   width: 520px;
@@ -5,6 +8,7 @@
   border-style: groove;
   margin: 10px;
   padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .column p {
@@ -15,11 +19,13 @@
 }
 
 #title{
+  font-family: 'Acme', sans-serif;
   text-align: center;
   font-size: 3em;
 }
 
 .column h3 {
+  font-family: 'Acme', sans-serif;
   text-align: center;
   font-size: 2em;
 }
@@ -32,5 +38,11 @@
   height: 275px;
   margin-bottom: -10px;
   border: solid black;
+
   border-radius: 50%
+}
+
+body {
+background: url("../img/Grass.jpg") no-repeat bottom fixed;
+background-size: 100%;
 }
