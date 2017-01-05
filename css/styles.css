@@ -4,12 +4,12 @@
 @media screen and (min-width: 1000px) {
   .column {
     float: left;
-    width: 520px;
+    width: 480px;
     height: 460px;
     border-style: groove;
     margin: 10px;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 25px;
   }
 
@@ -44,8 +44,8 @@
   }
 
   body {
-  background: url("../img/Grass.jpg") no-repeat bottom fixed;
-  background-size: 100%;
+  background: url("../img/Grass.jpg") no-repeat center center fixed;
+  background-size: cover;
   }
 }
 
@@ -57,7 +57,7 @@
     border-style: groove;
     margin: 10px;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 25px;
   }
 
@@ -92,24 +92,25 @@
   }
 
   body {
-  background-color: gray;
-  background-size: 100%;
+  background: url("../img/Grass.jpg") no-repeat center center fixed;
+  background-size: cover;
   }
 }
 
 @media screen and (max-width: 480px) {
   .column {
     float: left;
-    width: 520px;
-    height: 460px;
+    width: 300px;
+    height: 400px;
     border-style: groove;
     margin: 10px;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 25px;
   }
 
   .column p {
-    width: 460px;
+    width: 300px;
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -124,23 +125,31 @@
   .column h3 {
     font-family: 'Acme', sans-serif;
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
   }
 
   .column img {
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
-    height: 275px;
+    width: 280px;
+    height: 200px;
     margin-bottom: -10px;
     border: solid black;
 
-    border-radius: 50%
+    border-radius: 25px;
   }
 
   body {
-  background-color: blue;
-  background-size: 100%;
+  background: url("../img/Grass.jpg") no-repeat center center fixed;
+  background-size: cover;
   }
+
+}
+
+.footer {
+  position: fixed sticky bottom;
+  float: clear;
+  display: block;
+  width: 700px;
 }
